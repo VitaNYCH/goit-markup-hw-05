@@ -457,9 +457,23 @@ margin-right: 30px;
 
     width: 528px;
     height: 581px;
+    padding: 8px;
 
     background: #FFFFFF;
 }
+.btn-close-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    background: #FFFFFF;
+}
+
 
 /*footer*/
 .info-foot{
