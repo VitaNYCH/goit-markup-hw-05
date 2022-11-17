@@ -55,7 +55,7 @@
             <section class="hero overlay">
                 <div class="container">
                     <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
-                    <button class="button primary" type="button">Замовити послугу   
+                    <button class="button primary" type="button" data-modal-open>Замовити послугу   
                     </button>
                 </div>
             </section>
@@ -348,6 +348,12 @@
                 </ul>
             </div>
         </section>
+        <!--Бекдроп-->
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" data-modal-close>Закрити</button>
+            </div>
+        </div>
     </main>
     <footer class="end-page">
         <div class="container">
@@ -406,6 +412,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
